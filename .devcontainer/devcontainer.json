@@ -1,0 +1,14 @@
+{
+  "name": "C++ Codespace",
+  "image": "mcr.microsoft.com/devcontainers/cpp:0-ubuntu-22.04", 
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",       
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  },
+  "postCreateCommand": "g++ --version && g++ main.cpp -o main && ./main"
+}

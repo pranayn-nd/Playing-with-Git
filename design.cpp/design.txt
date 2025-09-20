@@ -1,0 +1,12 @@
+1) instance member variable - variables declared inside a class. \\ other variables are local variables which we use in our daily life
+2) instance member function - variables declared inside a class, \\ similarly functions
+3) a method can be just declared and class and the definition can be both insided or outside
+4) main thing to remember is 
+   Object state should change only when its member functions are called
+   To implement this we keep all the member variables as private by default
+   member variables define the state of a class
+5) Static Members in C++
+     static local variables  -- initialised to 0 if not explicitly initialised
+                             -- their lifetime is through out the program
+     static member variables
+     static function variables
